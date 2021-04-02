@@ -1,55 +1,141 @@
 /* line 3, scss/baseline/_reset.scss */
-*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, *::after, *::before {
+  box-sizing: border-box; }
 
 /* line 7, scss/baseline/_reset.scss */
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
 
 /* line 28, scss/baseline/_reset.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, details, hr, img { display: block; }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main, details, hr,
+img {
+  display: block; }
 
 /* line 34, scss/baseline/_reset.scss */
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
 
 /* line 40, scss/baseline/_reset.scss */
-img { max-width: 100%; height: auto; border-style: none; display: block; margin-top: 0; margin-bottom: 0; }
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0; }
 
 /* line 50, scss/baseline/_reset.scss */
-.sr-text, .screen-reader-text { border: 0; clip: rect(1px, 1px, 1px, 1px); -webkit-clip-path: inset(50%); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px; word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
+.sr-text,
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
 
 /* line 64, scss/baseline/_reset.scss */
-.sr-text:focus, screen-reader-text:focus { background-color: #f1f1f1; border-radius: 3px; -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); clip: auto !important; -webkit-clip-path: none; clip-path: none; color: #21759b; display: block; font-size: 0.875rem; font-weight: bold; height: auto; left: 0.3125rem; line-height: normal; padding: 0.5rem; text-decoration: none; top: 0.3125rem; width: auto; z-index: 100000; /* Above WP toolbar. */ }
+.sr-text:focus,
+screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 0.3125rem;
+  line-height: normal;
+  padding: 0.5rem;
+  text-decoration: none;
+  top: 0.3125rem;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */ }
 
 /* Do not show the outline on the skip link target. */
 /* line 87, scss/baseline/_reset.scss */
-#content[tabindex="-1"]:focus { outline: 0; }
+#content[tabindex="-1"]:focus {
+  outline: 0; }
 
 /* line 91, scss/baseline/_reset.scss */
-embed, iframe, object { max-width: 100%; }
+embed,
+iframe,
+object {
+  max-width: 100%; }
 
 /* line 3, scss/global/_structure.scss */
-body { font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 1.1; color: white; background: #1a1a1a; min-height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.1;
+  color: white;
+  background: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 /* line 16, scss/global/_structure.scss */
-.dark-header { background: rgba(0, 0, 0, 0.2); }
+.dark-header {
+  background: rgba(0, 0, 0, 0.2); }
 
 /* line 21, scss/global/_structure.scss */
-.dark-main h1, .dark-main p { opacity: 0; -webkit-animation: fadeInUp 1s ease-in-out 0s forwards; animation: fadeInUp 1s ease-in-out 0s forwards; }
+.dark-main h1, .dark-main p {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards; }
 /* line 26, scss/global/_structure.scss */
-.dark-main h1 { -webkit-animation-delay: 1s; animation-delay: 1s; }
+.dark-main h1 {
+  animation-delay: 1s; }
 /* line 29, scss/global/_structure.scss */
-.dark-main p { -webkit-animation-delay: 2s; animation-delay: 2s; }
+.dark-main p {
+  animation-delay: 2s; }
 
 /* line 2, scss/global/_typography.scss */
-h1, h2, h3, h4, h5 { line-height: 1.2; padding: 2rem 1rem; font-family: 'New Tegomin', serif; }
+h1, h2, h3, h4, h5 {
+  line-height: 1.2;
+  padding: 2rem 1rem;
+  font-family: 'New Tegomin', serif; }
 
 /* line 8, scss/global/_typography.scss */
-h1 { font-size: 3rem; }
+h1 {
+  font-size: 3rem; }
 
 /* line 12, scss/global/_typography.scss */
-p { padding: 1rem; }
+p {
+  padding: 1rem; }
 
-@-webkit-keyframes fadeInUp { from { opacity: 0; }
-  to { opacity: 1; -webkit-transform: none; transform: none; } }
-
-@keyframes fadeInUp { from { opacity: 0; }
-  to { opacity: 1; -webkit-transform: none; transform: none; } }
+@keyframes fadeInUp {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
