@@ -1,0 +1,36 @@
+// let's go boys. and girls. 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; // as a baseline. using rem from here on out. this way, everything scales properly. 
+    line-height: 1.1;
+    color: white;
+    background: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+// because this is a placeholder, and could go either way really
+.dark-header {
+    background: rgba(0,0,0,0.2);
+}
+
+.dark-main {
+    h1, p {
+        opacity: 0;
+    // as we're using the same animation for each instance, call it here so we're not repeating it
+    animation: fadeInUp 1s ease-in-out 0s forwards;
+    }
+    h1 {
+        animation-delay: 1s;
+    }
+    p {
+        animation-delay: 2s;
+    }
+}
+
+.dark-footer {
+
+}
